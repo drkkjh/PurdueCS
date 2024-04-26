@@ -1,0 +1,17 @@
+name: cs373
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.11
+  - pip
+  - numpy>=1.23.5
+  - scipy>=1.10.0
+  - matplotlib>=3.7.0
+  - pandas==1.5.3
+  - tqdm
+  - pytorch>=2.0.0
+  - torchvision
+  - pip:
+      - gradescope-utils>=0.5.0
+      - scikit-learn
